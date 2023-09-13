@@ -25,7 +25,7 @@
   }
   
   /** 
-   * Renderiza o elemento `main` de forma consistente no IE. 
+   * Renderiza o elemento 'main' de forma consistente no IE. 
    */
   
   main {
@@ -33,7 +33,7 @@
   }
   
   /** 
-   * Corrige o tamanho da fonte e margem nos elementos `h1` dentro dos contextos `section` e 
+   * Corrige o tamanho da fonte e margem nos elementos 'h1' dentro dos contextos `section` e 
    * `article` no Chrome, Firefox, e Safari. 
    */
   
@@ -58,7 +58,7 @@
   
   /**
    * 1. Corrige a herança e o dimensionamento do tamanho da fonte em todos os navegadores. 
-   * 2. Corrige o tamanho ímpar da fonte `em` em todos os navegadores. 
+   * 2. Corrige o tamanho ímpar da fonte 'em' em todos os navegadores. 
    */
   
   pre {
@@ -99,7 +99,7 @@
   
 /** 
  * 1. Corrige a herança e o dimensionamento do tamanho da fonte em todos os navegadores. 
- * 2. Corrige o tamanho ímpar da fonte `em` em todos os navegadores. 
+ * 2. Corrige o tamanho ímpar da fonte 'em' em todos os navegadores. 
  */
   
   code,
@@ -118,7 +118,7 @@
   }
   
 /** 
- * Impede que os elementos `sub` e `sup` afetem a altura da linha em 
+ * Impede que os elementos 'sub' e 'sup' afetem a altura da linha em 
  * todos os navegadores. 
  */
   
@@ -301,8 +301,8 @@
   }
   
 /** 
- * 1. Corrige a incapacidade de estilizar tipos clicáveis no iOS e no Safari. 
- * 2. Altera as propriedades da fonte para `inherit` no Safari. 
+ * 1. Corrige a incapacidade de estilizar  no iOS e no Safari. 
+ * 2. Altera as propriedades da fonte para 'inherit' no Safari. 
  */
   
   ::-webkit-file-upload-button {
@@ -332,17 +332,13 @@
   /* Diversos
      ========================================================================== */
   
-/** 
- * Adiciona a visualização correta no IE 10+. 
- */
+
   
   template {
     display: none;
   }
   
-/** 
- * Adiciona a visualização correta no IE 10. 
- */
+
   
   [hidden] {
     display: none;
